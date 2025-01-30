@@ -94,7 +94,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USER }}/apiSpringboot2025:latest
+          tags: ${{ secrets.DOCKERHUB_USER }}/apispringboot2025:latest
 
       # message de fin indiquant que tout s'est bien passé
       - run: echo "🍏 This job's status is ${{ job.status }}."
