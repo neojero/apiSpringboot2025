@@ -98,3 +98,18 @@ jobs:
 
       # message de fin indiquant que tout s'est bien passé
       - run: echo "🍏 This job's status is ${{ job.status }}."
+
+    # Notification
+    Discord:
+      name: Discord
+      runs-on: ubuntu-latest
+      needs: docker-build-image-api
+
+      steps:
+        - name: Discord notification
+          env:
+            DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          uses: sarisia/actions-status-discord@v1
+          if: always()
+          with:
+            description: 'The project SpringBoot API 2025 has been deployed.'
