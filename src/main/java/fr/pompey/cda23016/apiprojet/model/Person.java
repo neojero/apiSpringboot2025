@@ -10,7 +10,7 @@ public class Person {
 
     // cle primaire
     @Id
-    // auto-increment
+    // auto-increment type=Identity
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     // pas nécessaire mais je lie mon attribut d'objet avec la colonne de ma table en BDD
     @Column(name="id")

@@ -8,6 +8,7 @@ public class ApiprojetApplication {
 
     public static void main(String[] args) {
 
+        // chargement du contexte de l'application
         SpringApplication.run(ApiprojetApplication.class, args);
     }
 }
