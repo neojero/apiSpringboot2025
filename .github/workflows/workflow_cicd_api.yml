@@ -9,7 +9,7 @@ on:
 
 jobs:
     build:
-      name: Build and analyze
+      name: Build_and_analyze
       runs-on: ubuntu-latest
       steps:
         # recopie du depot in executeur
@@ -55,17 +55,17 @@ jobs:
         # message de fin indiquant que tout s'est bien passé
         - run: echo "🍏 This job's status is ${{ job.status }}."
 
-      # Notification
-      Discord:
-          name: Discord
-          runs-on: ubuntu-latest
-          needs: Build and analyze
+    # Notification
+    Discord:
+      name: Discord
+      runs-on: ubuntu-latest
+      needs: build
 
-          steps:
-            - name: Discord notification
-              env:
-                DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
-              uses: sarisia/actions-status-discord@v1
-              if: always()
-              with:
-                description: 'The project SpringBoot API 2025 has been deployed.'
+      steps:
+        - name: Discord notification
+          env:
+            DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          uses: sarisia/actions-status-discord@v1
+          if: always()
+          with:
+            description: 'The project SpringBoot API 2025 has been deployed.'
