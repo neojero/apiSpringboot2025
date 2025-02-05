@@ -44,3 +44,13 @@ jobs:
           env:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
+
+        - name: Charging artefact   # permet de charger un artefact
+          uses: actions/upload-artifact@v4
+          with:
+              name: package.jar
+              path: target/*.jar
+              retention-days: 1
+
+        # message de fin indiquant que tout s'est bien passé
+        - run: echo "🍏 This job's status is ${{ job.status }}."
