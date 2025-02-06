@@ -17,7 +17,7 @@ jobs:
           with:
             fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
-        - name: Start MySql #démarrage du service mysql
+        - name: Start MySql # demarrage du service mysql
           run: sudo service mysql start
 
         - name: Create Database from script
@@ -53,6 +53,52 @@ jobs:
               retention-days: 1
 
         # message de fin indiquant que tout s'est bien passé
+        - run: echo "🍏 This job's status is ${{ job.status }}."
+
+    docker-build-image-api:
+      # verifie que le declenchement provient de la branche main
+      if: ${{ github.ref == 'refs/heads/main' }}
+      runs-on: ubuntu-latest
+      needs:
+        - build
+      steps:
+        # recuperation du dépôt
+        - uses: actions/checkout@v4
+
+        # installation des outils pour docker
+        - name: Set Up QEMU
+          uses: docker/setup-qemu-action@v3
+
+        - name: Set Up Docker Build
+          uses: docker/setup-buildx-action@v3
+
+        # connexion au docker hub
+        - name: Connect to Docker Hub
+          uses: docker/login-action@v3
+          with:
+            username: ${{ secrets.DOCKERHUB_USER }}
+            password: ${{ secrets.DOCKERHUB_PASSWORD }}
+
+        # recupération de l'artefact
+        - name: Download a single artifact
+          uses: actions/download-artifact@v4
+          with:
+            name: package.jar
+
+        # juste pour le controle
+        - name: List files in the repository
+          run: ls ${{ github.workspace }}
+
+        # construction de l'image docker et push sur dockerHub
+        - name: Build and push
+          uses: docker/build-push-action@v5
+          with:
+            context: .
+            file: Dockerfile
+            push: true
+            tags: ${{ secrets.DOCKERHUB_USER }}/apispringboot2025:latest
+
+        # message de fin indiquant que tout s'est bien passe
         - run: echo "🍏 This job's status is ${{ job.status }}."
 
     # Notification

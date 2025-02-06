@@ -1,6 +1,6 @@
 FROM openjdk:21
 
-# Exposer le port 9011
+# Exposer le port 9000
 EXPOSE 9000
 
 # Répertoire de travail dans le conteneur pour stocker le jar
