@@ -66,6 +66,15 @@
         </dependency>
     </dependencies>
 
+    <profiles>
+        <profile>
+            <id>cicd</id>
+            <properties>
+                <spring.profiles.active>cicd</spring.profiles.active>
+            </properties>
+        </profile>
+    </profiles>
+
     <build>
         <plugins>
             <plugin>
