@@ -21,7 +21,7 @@ jobs:
           run: sudo service mysql start
 
         - name: Create Database from script
-          run: mysql -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e "source infra/mysql/dump/springboot.sql" -Dspring.profiles.active=cicd
+          run: mysql -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e "source infra/mysql/dump/springboot.sql"
           env:
             SPRING_PROFILES_ACTIVE: cicd
 
@@ -45,7 +45,7 @@ jobs:
         - name: Build and analyze
           env:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
+          run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025 -Dspring.profiles.active=cicd
 
         - name: Charging artefact   # permet de charger un artefact
           uses: actions/upload-artifact@v4
