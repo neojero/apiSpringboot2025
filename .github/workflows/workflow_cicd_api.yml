@@ -21,7 +21,7 @@ jobs:
           run: sudo service mysql start
 
         - name: Create Database from script
-          run: mysql -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e "source infra/mysql/dump/springboot.sql" -Pcicd
+          run: mysql -u${{ secrets.DB_USER }} -p${{ secrets.DB_PASSWORD }} -e "source infra/mysql/dump/springboot.sql" -Dspring.profiles.active=cicd
           env:
             SPRING_PROFILES_ACTIVE: cicd
 
