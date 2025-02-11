@@ -2,9 +2,16 @@ name: workflow_cicd_api
 run-name: ${{ github.actor }} GitHub Actions Workflow CICD API 🚀
 on:
   push:
-    branches:
-      - main
+    branches: [main]
+    paths:
+      # pour eviter de reconstruire si on modifie un fichier autre que dans src et  workflow
+      - 'src/**'
+      - '.github/workflows/workflow_cicd_api.yml'
   pull_request:
+    branches: [ main ]
+    paths:
+      - 'src/**'
+      - '.github/workflows/workflow_cicd_api.yml'
     types: [ opened, synchronize, reopened ]
 
 jobs:
@@ -16,6 +23,10 @@ jobs:
         - uses: actions/checkout@v4
           with:
             fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
+
+        - name: Add hosts to /etc/hosts # ajout d'un host dans l'executeur
+          run: |
+            sudo echo "127.0.0.1 mysql_server" | sudo tee -a /etc/hosts
 
         - name: Start MySql # demarrage du service mysql
           run: sudo service mysql start
@@ -45,8 +56,9 @@ jobs:
 
         - name: Build and analyze
           env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-            SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/springboot
+            #SPRING_DATASOURCE_URL: jdbc:mysql://localhost:3306/springboot
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025 -Dspring.profiles.active=cicd
 
         - name: Charging artefact   # permet de charger un artefact
