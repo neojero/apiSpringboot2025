@@ -3,10 +3,10 @@ run-name: ${{ github.actor }} GitHub Actions Workflow CICD API 🚀
 on:
   push:
     branches: [main]
-    paths:
+    #paths:
       # pour eviter de reconstruire si on modifie un fichier autre que dans src et  workflow
-      - 'src/**'
-      - '.github/workflows/workflow_cicd_api.yml'
+    #  - 'src/**'
+    #  - '.github/workflows/workflow_cicd_api.yml'
   pull_request:
     branches: [ main ]
     paths:
