@@ -1,5 +1,5 @@
 # Utiliser une image de base officielle Java
-FROM openjdk:17-jdk-alpine
+FROM openjdk:21
 
 # Définir des variables d'environnement
 ENV APP_HOME=/app
