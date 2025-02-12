@@ -125,12 +125,12 @@ jobs:
           uses: docker/build-push-action@v5
           with:
             context: .
-            file: Dockerfile
+            file: Dockerfile.myapi
             push: true
             tags: ${{ secrets.DOCKERHUB_USER }}/apispringboot2025:latest
 
         # message de fin indiquant que tout s'est bien passe
-        - run: echo "🍏 This job's status is ${{ job.status }}."
+        - run: echo "🍏 This job's status is ${{ job.status }}. 🏁 :trophy:"
 
     # Notification
     Discord_for_docker:
