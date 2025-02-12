@@ -24,9 +24,9 @@ jobs:
           with:
             fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
 
-        - name: Add hosts to /etc/hosts # ajout d'un host dans l'executeur
-          run: |
-            sudo echo "127.0.0.1 mysql_server" | sudo tee -a /etc/hosts
+        #- name: Add hosts to /etc/hosts # ajout d'un host dans l'executeur
+        #  run: |
+        #    sudo echo "127.0.0.1 mysql_server" | sudo tee -a /etc/hosts
 
         - name: Start MySql # demarrage du service mysql
           run: sudo service mysql start
@@ -58,6 +58,7 @@ jobs:
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          # build avec fichier properties spécifique mais plus besoin suite utilisation env dans Dockerfile
           #run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025 -Dspring.profiles.active=cicd
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
 
