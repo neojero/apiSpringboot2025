@@ -8,11 +8,15 @@ ARG SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT
 ARG SPRING_JPA_SHOW_SQL
 ARG SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL
 
-# Définir des variables d'environnement
+# variables d'environnement
 ENV APP_HOME=/app
+# Définir des variables d'environnement
+# cela permet de forcer le paramétrage de Springboot pour coller
+# à notre conteneur
 ENV SPRING_DATASOURCE_URL=jdbc:mysql://mysql_server:3306/springboot
 ENV SPRING_DATASOURCE_USERNAME=root
 ENV SPRING_DATASOURCE_PASSWORD=root
+# ici ce sont des parametres Dialect de Springboot pour la connexion BDD
 ENV SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT=org.hibernate.dialect.MySQL8Dialect
 ENV SPRING_JPA_SHOW_SQL=true
 ENV SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL=true
