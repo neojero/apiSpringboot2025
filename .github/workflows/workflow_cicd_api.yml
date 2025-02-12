@@ -131,7 +131,7 @@ jobs:
               PASSWORD=${{secrets.DB_PASSWORD}}
 
         # message de fin indiquant que tout s'est bien passe
-        - run: echo "🍏 This job's status is ${{ job.status }}. 🏁 :trophy:"
+        - run: echo "🍏 This job's status is ${{ job.status }}. 🏁 🏆"
 
     # Notification
     Discord_for_docker:
