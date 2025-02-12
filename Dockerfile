@@ -1,12 +1,8 @@
 FROM openjdk:21
 
 # definition des arguments
-ARG SPRING_DATASOURCE_URL
-ARG SPRING_DATASOURCE_USERNAME
-ARG SPRING_DATASOURCE_PASSWORD
-ARG SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT
-ARG SPRING_JPA_SHOW_SQL
-ARG SPRING_JPA_PROPERTIES_HIBERNATE_FORMAT_SQL
+ARG USERNAME
+ARG PASSWORD
 
 # variables d'environnement
 ENV APP_HOME=/app
@@ -14,8 +10,9 @@ ENV APP_HOME=/app
 # cela permet de forcer le paramétrage de Springboot pour coller
 # à notre conteneur
 ENV SPRING_DATASOURCE_URL=jdbc:mysql://mysql_server:3306/springboot
-ENV SPRING_DATASOURCE_USERNAME=root
-ENV SPRING_DATASOURCE_PASSWORD=root
+# ce n'est pas parfait car donnée sensible
+ENV SPRING_DATASOURCE_USERNAME=$USERNAME
+ENV SPRING_DATASOURCE_PASSWORD=$PASSWORD
 # ici ce sont des parametres Dialect de Springboot pour la connexion BDD
 ENV SPRING_JPA_PROPERTIES_HIBERNATE_DIALECT=org.hibernate.dialect.MySQL8Dialect
 ENV SPRING_JPA_SHOW_SQL=true
