@@ -1,4 +1,4 @@
-FROM openjdk:21
+FROM openjdk:21-jdk-slim-bullseye
 
 # definition des arguments pour l'exemple
 ARG USERNAME
