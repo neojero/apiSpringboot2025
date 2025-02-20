@@ -35,7 +35,7 @@ RUN apt-get update && apt-get install -y netcat
 COPY apiprojet-0.0.1-SNAPSHOT.jar /app/apiprojet-0.0.1-SNAPSHOT.jar
 
 # copie du script wait for it
-COPY ./infra/script/wait-for-it.sh /app/wait-for-it.sh
+COPY infra/script/wait-for-it.sh /app/wait-for-it.sh
 
 # rend le script exécutable
 RUN chmod +x /app/wait-for-it.sh
