@@ -19,7 +19,7 @@ jobs:
       name: Build_and_analyze
       runs-on: ubuntu-latest
       steps:
-        # recopie du depot in executeur
+        # recopie du depot dans executeur
         - uses: actions/checkout@v4
           with:
             fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
@@ -56,6 +56,8 @@ jobs:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           # build avec fichier properties spécifique mais plus besoin suite utilisation env dans Dockerfile
           #run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025 -Dspring.profiles.active=cicd
+          # execution en mode non interactif (B) et Exécute toutes les phases jusqu'à verify, y compris test, et effectue des vérifications supplémentaires pour s'assurer que le package est valide.
+          # a utiliser lors de script d'automatisation type CICD
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
 
         - name: Charging artefact   # permet de charger un artefact
