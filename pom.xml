@@ -108,6 +108,16 @@
                     </excludes>
                 </configuration>
             </plugin>
+
+            <!-- Plugin Allure Maven -->
+            <plugin>
+                <groupId>io.qameta.allure</groupId>
+                <artifactId>allure-maven</artifactId>
+                <version>2.10.0</version>
+                <configuration>
+                    <reportVersion>2.17.3</reportVersion>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
