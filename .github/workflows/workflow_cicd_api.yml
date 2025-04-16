@@ -60,6 +60,20 @@ jobs:
           # a utiliser lors de script d'automatisation type CICD
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
 
+        - name: Generate Allure Results
+          run: mvn allure:report
+
+        - name: Publish Allure Report
+          uses: simple-elf/allure-report-action@master
+          if: always()
+          with:
+            allure_results: target/allure-results
+            gh_pages: gh-pages
+            allure_report: allure-report
+            allure_history: allure-history
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
         - name: Charging artefact   # permet de charger un artefact
           uses: actions/upload-artifact@v4
           with:
