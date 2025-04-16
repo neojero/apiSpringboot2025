@@ -1,6 +1,5 @@
 package fr.pompey.cda23016.apiprojet;
 
-
 import fr.pompey.cda23016.apiprojet.model.Person;
 import fr.pompey.cda23016.apiprojet.repository.PersonRepository;
 import fr.pompey.cda23016.apiprojet.service.PersonService;
@@ -19,6 +18,7 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
+import static org.mockito.Mockito.times;
 
 @ExtendWith(MockitoExtension.class)
 public class PersonServiceMockAllureTest {
@@ -63,7 +63,7 @@ public class PersonServiceMockAllureTest {
 
         // Vérification du résultat
         verifyFindAllCalledOnce();
-        assertPersonsResult(result, "John", "Mary");
+        assertPersonsResult(result, "Doe", "Doe");
     }
 
     @Step("Créer une personne fictive pour le test")
@@ -106,7 +106,7 @@ public class PersonServiceMockAllureTest {
     @Step("Vérifier le résultat des personnes")
     private void assertPersonsResult(Iterable<Person> result, String... expectedNames) {
         for (String name : expectedNames) {
-            assertThat(result.iterator().next().getFirstName()).contains(name);
+            assertThat(result.iterator().next().getLastName()).contains(name);
         }
     }
 }
