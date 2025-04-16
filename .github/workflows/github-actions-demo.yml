@@ -15,4 +15,6 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
+      - name: List files in the repository src
+        run: mkdir temporary
       - run: echo "🍏 This job's status is ${{ job.status }}."
