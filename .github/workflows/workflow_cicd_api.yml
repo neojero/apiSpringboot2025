@@ -98,7 +98,8 @@ jobs:
           uses: sarisia/actions-status-discord@v1
           if: success()
           with:
-            description: 'The project SpringBoot API 2025 has been built by Maven.'
+            description: |
+              ${{ success() && 'The project SpringBoot API 2025 has been built by Maven.' || 'The project SpringBoot API 2025 has failed by Maven.' }}
 
     docker-build-image-api:
       # verifie que le declenchement provient de la branche main
@@ -163,7 +164,8 @@ jobs:
           uses: sarisia/actions-status-discord@v1
           if: always()
           with:
-            description: 'The project SpringBoot API 2025 has been deployed in Docker Hub.'
+            description: |
+              ${{ success() && 'The project SpringBoot API 2025 has been successfully deployed in Docker Hub.' || 'The deployment of the project SpringBoot API 2025 to Docker Hub has failed.' }}
 
     Team_Notification:
       name: MS Teams Deploy Card
@@ -171,7 +173,7 @@ jobs:
       needs: docker-build-image-api
       steps:
           # this is the new step
-          - uses: dchourasia/ms-teams-notification@1.0 #  or "./" if in a local set-up
+          - uses: dchourasia/ms-teams-notification@1.0
             if: always()
             with:
               github-token: ${{ github.token }}
