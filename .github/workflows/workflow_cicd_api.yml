@@ -60,6 +60,10 @@ jobs:
           # a utiliser lors de script d'automatisation type CICD
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
 
+        # Generation de rapport de tests avec allure
+        - name: Run Tests with Allure
+          run: mvn test
+
         - name: Generate Allure Results
           run: mvn allure:report
 
