@@ -96,7 +96,7 @@ jobs:
           env:
             DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           uses: sarisia/actions-status-discord@v1
-          if: success()
+          if: always()
           with:
             description: |
               ${{ success() && 'The project SpringBoot API 2025 has been built by Maven.' || 'The project SpringBoot API 2025 has failed by Maven.' }}
