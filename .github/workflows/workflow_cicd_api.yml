@@ -71,11 +71,9 @@ jobs:
           uses: peaceiris/actions-gh-pages@v3
           if: always()
           with:
-            github_token: ${{ secrets.GITHUB_TOKEN }}
+            github_token: ${{ secrets.PERSONAL_TOKEN_ALLURE }}
             publish_dir: target/site/allure-maven-plugin
             destination_dir: allure-report
-          env:
-              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         - name: Charging artefact   # permet de charger un artefact
           uses: actions/upload-artifact@v4
