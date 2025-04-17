@@ -92,14 +92,21 @@ jobs:
       needs: build
 
       steps:
-        - name: Discord notification
+        - name: Discord notification on success
           env:
             DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           uses: sarisia/actions-status-discord@v1
-          if: always()
+          if: success()
           with:
-            description: |
-              ${{ success() && 'The project SpringBoot API 2025 has been built by Maven.' || 'The project SpringBoot API 2025 has failed by Maven.' }}
+              description: 'The project SpringBoot API 2025 has been successfully build by Maven.'
+
+        - name: Discord notification on failure
+          env:
+            DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          uses: sarisia/actions-status-discord@v1
+          if: failure()
+          with:
+            description: 'The project SpringBoot API 2025 build by Maven has failed.'
 
     docker-build-image-api:
       # verifie que le declenchement provient de la branche main
@@ -158,14 +165,21 @@ jobs:
       needs: docker-build-image-api
 
       steps:
-        - name: Discord notification
+        - name: Discord notification on success
           env:
             DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           uses: sarisia/actions-status-discord@v1
-          if: always()
+          if: success()
           with:
-            description: |
-              ${{ success() && 'The project SpringBoot API 2025 has been successfully deployed in Docker Hub.' || 'The deployment of the project SpringBoot API 2025 to Docker Hub has failed.' }}
+            description: 'The project SpringBoot API 2025 has been successfully deployed in Docker Hub.'
+
+        - name: Discord notification on failure
+          env:
+            DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          uses: sarisia/actions-status-discord@v1
+          if: failure()
+          with:
+            description: 'The deployment of the project SpringBoot API 2025 to Docker Hub has failed.'
 
     Team_Notification:
       name: MS Teams Deploy Card
