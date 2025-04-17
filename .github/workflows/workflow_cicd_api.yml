@@ -61,8 +61,8 @@ jobs:
           run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=neojero_apiSpringboot2025
 
         # Generation de rapport de tests avec allure
-        - name: Run Tests with Allure
-          run: mvn test
+        #- name: Run Tests with Allure
+        #  run: mvn test
 
         - name: Generate Allure Results
           run: mvn allure:report
@@ -124,7 +124,6 @@ jobs:
 
         - name: Set Up Docker Build
           uses: docker/setup-buildx-action@v3
-
 
         # connexion au docker hub
         - name: Connect to Docker Hub
