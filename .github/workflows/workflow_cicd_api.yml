@@ -68,15 +68,14 @@ jobs:
           run: mvn allure:report
 
         - name: Publish Allure Report
-          uses: simple-elf/allure-report-action@master
+          uses: peaceiris/actions-gh-pages@v3
           if: always()
           with:
-            allure_results: allure-results
-            gh_pages: gh-pages
-            allure_report: allure-report
-            allure_history: allure-history
+            github_token: ${{ secrets.GITHUB_TOKEN }}
+            publish_dir: target/site/allure-maven-plugin
+            destination_dir: allure-report
           env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
         - name: Charging artefact   # permet de charger un artefact
           uses: actions/upload-artifact@v4
@@ -99,7 +98,7 @@ jobs:
           env:
             DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           uses: sarisia/actions-status-discord@v1
-          if: always()
+          if: success()
           with:
             description: 'The project SpringBoot API 2025 has been built by Maven.'
 
