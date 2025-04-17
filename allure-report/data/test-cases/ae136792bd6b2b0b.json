@@ -1,0 +1,152 @@
+{
+  "uid" : "ae136792bd6b2b0b",
+  "name" : "GetPersonByIdTest()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest.GetPersonByIdTest",
+  "historyId" : "40828fe00795ccd816a28acbe62d9250",
+  "time" : {
+    "start" : 1744882206131,
+    "stop" : 1744882206141,
+    "duration" : 10
+  },
+  "description" : "Test de récupération d'une personne par ID",
+  "descriptionHtml" : "<p>Test de récupération d'une personne par ID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "Mock"
+  }, {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest]/[method:GetPersonByIdTest()]"
+  }, {
+    "name" : "feature",
+    "value" : "Récupération des personnes"
+  }, {
+    "name" : "epic",
+    "value" : "Gestion des personnes"
+  }, {
+    "name" : "story",
+    "value" : "Récupération d'une personne par son ID"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1436-410"
+  }, {
+    "name" : "thread",
+    "value" : "2309@fv-az1436-410.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "GetPersonByIdTest"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "c2e8d20ce2192a2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744882161807,
+        "stop" : 1744882161817,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "8360338a39847fcd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880605109,
+        "stop" : 1744880605117,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "ba1780a81e4bc8ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880556844,
+        "stop" : 1744880556854,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "745f0cec0abf418e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880210091,
+        "stop" : 1744880210103,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "dffb7e6d723a9663",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744809604720,
+        "stop" : 1744809604731,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "b28de43dedd2cb92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807680690,
+        "stop" : 1744807680701,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "c7b64e779e8023c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807653367,
+        "stop" : 1744807653377,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "757ed15697f008ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807364198,
+        "stop" : 1744807364231,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "20151ee85d6e94a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744805355661,
+        "stop" : 1744805355676,
+        "duration" : 15
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Mock" ]
+  },
+  "source" : "ae136792bd6b2b0b.json",
+  "parameterValues" : [ ]
+}

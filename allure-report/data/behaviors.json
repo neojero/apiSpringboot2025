@@ -2,48 +2,64 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "name" : "behaviors",
   "children" : [ {
-    "name" : "getPersonsTest()",
-    "uid" : "190d701bb1e8264c",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1744880750413,
-      "stop" : 1744880751378,
-      "duration" : 965
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 9,
-    "retriesStatusChange" : true,
-    "parameters" : [ ]
+    "name" : "Gestion des personnes",
+    "children" : [ {
+      "name" : "Récupération des personnes",
+      "children" : [ {
+        "name" : "Récupération de toutes les personnes",
+        "children" : [ {
+          "name" : "getPersonsTest()",
+          "uid" : "26c51199777ad95b",
+          "parentUid" : "00123049c2f5293a6afabfc2a2f38f38",
+          "status" : "passed",
+          "time" : {
+            "start" : 1744882205115,
+            "stop" : 1744882206069,
+            "duration" : 954
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 9,
+          "retriesStatusChange" : true,
+          "parameters" : [ ]
+        } ],
+        "uid" : "00123049c2f5293a6afabfc2a2f38f38"
+      }, {
+        "name" : "Récupération d'une personne par son ID",
+        "children" : [ {
+          "name" : "GetPersonByIdTest()",
+          "uid" : "ae136792bd6b2b0b",
+          "parentUid" : "b1592feaf88dcbf1a4e1e1078abcecd5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1744882206131,
+            "stop" : 1744882206141,
+            "duration" : 10
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 9,
+          "retriesStatusChange" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "b1592feaf88dcbf1a4e1e1078abcecd5"
+      } ],
+      "uid" : "863988aa903cbabffad22bcbc7b94103"
+    } ],
+    "uid" : "47f3764a6d17c4e4ebdf637c34223dec"
   }, {
-    "name" : "GetPersonByIdTest()",
-    "uid" : "86d717f6815c5058",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1744880751441,
-      "stop" : 1744880751451,
-      "duration" : 10
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 9,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
     "name" : "getPersonsTest()",
-    "uid" : "314a088f900290f5",
+    "uid" : "8ea16ccf7cf10cf1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744880753178,
-      "stop" : 1744880753270,
-      "duration" : 92
+      "start" : 1744882207810,
+      "stop" : 1744882207897,
+      "duration" : 87
     },
     "flaky" : false,
     "newFailed" : false,
@@ -54,13 +70,13 @@
     "parameters" : [ ]
   }, {
     "name" : "getPersonsTest()",
-    "uid" : "fefe6b0f9b4a9c37",
+    "uid" : "1d58004a2b6f34c5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744880753278,
-      "stop" : 1744880753281,
-      "duration" : 3
+      "start" : 1744882207906,
+      "stop" : 1744882207913,
+      "duration" : 7
     },
     "flaky" : false,
     "newFailed" : false,
@@ -71,13 +87,13 @@
     "parameters" : [ ]
   }, {
     "name" : "GetPersonByIdTest()",
-    "uid" : "bdf364ce2fdd51e5",
+    "uid" : "7f356b2951ca5904",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744880753283,
-      "stop" : 1744880753286,
-      "duration" : 3
+      "start" : 1744882207918,
+      "stop" : 1744882207925,
+      "duration" : 7
     },
     "flaky" : false,
     "newFailed" : false,
@@ -88,12 +104,12 @@
     "parameters" : [ ]
   }, {
     "name" : "contextLoads()",
-    "uid" : "cec86679337d6b89",
+    "uid" : "3507778fbf3838bf",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744880755542,
-      "stop" : 1744880755548,
+      "start" : 1744882210240,
+      "stop" : 1744882210246,
       "duration" : 6
     },
     "flaky" : false,

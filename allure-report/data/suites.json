@@ -5,13 +5,13 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "190d701bb1e8264c",
+      "uid" : "26c51199777ad95b",
       "parentUid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
       "status" : "passed",
       "time" : {
-        "start" : 1744880750413,
-        "stop" : 1744880751378,
-        "duration" : 965
+        "start" : 1744882205115,
+        "stop" : 1744882206069,
+        "duration" : 954
       },
       "flaky" : false,
       "newFailed" : false,
@@ -22,12 +22,12 @@
       "parameters" : [ ]
     }, {
       "name" : "GetPersonByIdTest()",
-      "uid" : "86d717f6815c5058",
+      "uid" : "ae136792bd6b2b0b",
       "parentUid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
       "status" : "passed",
       "time" : {
-        "start" : 1744880751441,
-        "stop" : 1744880751451,
+        "start" : 1744882206131,
+        "stop" : 1744882206141,
         "duration" : 10
       },
       "flaky" : false,
@@ -43,13 +43,13 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonControllerTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "314a088f900290f5",
+      "uid" : "8ea16ccf7cf10cf1",
       "parentUid" : "fa44221ea0c39d10d7fb61a5de133d5f",
       "status" : "passed",
       "time" : {
-        "start" : 1744880753178,
-        "stop" : 1744880753270,
-        "duration" : 92
+        "start" : 1744882207810,
+        "stop" : 1744882207897,
+        "duration" : 87
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,13 +64,13 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "fefe6b0f9b4a9c37",
+      "uid" : "1d58004a2b6f34c5",
       "parentUid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
       "status" : "passed",
       "time" : {
-        "start" : 1744880753278,
-        "stop" : 1744880753281,
-        "duration" : 3
+        "start" : 1744882207906,
+        "stop" : 1744882207913,
+        "duration" : 7
       },
       "flaky" : false,
       "newFailed" : false,
@@ -81,13 +81,13 @@
       "parameters" : [ ]
     }, {
       "name" : "GetPersonByIdTest()",
-      "uid" : "bdf364ce2fdd51e5",
+      "uid" : "7f356b2951ca5904",
       "parentUid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
       "status" : "passed",
       "time" : {
-        "start" : 1744880753283,
-        "stop" : 1744880753286,
-        "duration" : 3
+        "start" : 1744882207918,
+        "stop" : 1744882207925,
+        "duration" : 7
       },
       "flaky" : false,
       "newFailed" : false,
@@ -102,12 +102,12 @@
     "name" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests",
     "children" : [ {
       "name" : "contextLoads()",
-      "uid" : "cec86679337d6b89",
+      "uid" : "3507778fbf3838bf",
       "parentUid" : "3d0be90bde92d0e1164800cd7dd2b366",
       "status" : "passed",
       "time" : {
-        "start" : 1744880755542,
-        "stop" : 1744880755548,
+        "start" : 1744882210240,
+        "stop" : 1744882210246,
         "duration" : 6
       },
       "flaky" : false,
