@@ -14,7 +14,10 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.StreamSupport;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
@@ -53,7 +56,7 @@ public class PersonServiceMockAllureTest {
     public void getPersonsTest() {
         // Création de personnes fictives pour le test
         Person person1 = createTestPerson(1, "John", "Doe");
-        Person person2 = createTestPerson(2, "Mary", "Doe");
+        Person person2 = createTestPerson(2, "Mary", "DoeOuap");
 
         // Configuration du comportement du mock pour la méthode findAll
         configureMockToReturnPersons(person1, person2);
@@ -63,7 +66,7 @@ public class PersonServiceMockAllureTest {
 
         // Vérification du résultat
         verifyFindAllCalledOnce();
-        assertPersonsResult(result, "Doe", "Doe");
+        assertPersonsResult(result, "John", "Mary");
     }
 
     @Step("Créer une personne fictive pour le test")
@@ -105,8 +108,9 @@ public class PersonServiceMockAllureTest {
 
     @Step("Vérifier le résultat des personnes")
     private void assertPersonsResult(Iterable<Person> result, String... expectedNames) {
-        for (String name : expectedNames) {
-            assertThat(result.iterator().next().getLastName()).contains(name);
+        List<Person> personList = StreamSupport.stream(result.spliterator(), false).toList();
+        for (int i = 0; i < expectedNames.length; i++) {
+            assertThat(personList.get(i).getFirstName()).isEqualTo(expectedNames[i]);
         }
     }
 }

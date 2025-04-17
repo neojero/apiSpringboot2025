@@ -3,6 +3,9 @@ package fr.pompey.cda23016.apiprojet;
 import fr.pompey.cda23016.apiprojet.model.Person;
 import fr.pompey.cda23016.apiprojet.repository.PersonRepository;
 import fr.pompey.cda23016.apiprojet.service.PersonService;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -55,6 +58,8 @@ public class PersonServiceMockTest {
     }
 
     @Test
+    @Description("Test de récupération de toutes les personnes")
+    @Severity(SeverityLevel.NORMAL)
     public void getPersonsTest() {
 
         Person person1 = new Person();
