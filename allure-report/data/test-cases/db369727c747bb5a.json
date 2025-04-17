@@ -1,0 +1,68 @@
+{
+  "uid" : "db369727c747bb5a",
+  "name" : "getPersonsTest()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest.getPersonsTest",
+  "historyId" : "bde8b6e7ee725d330d43ad0e3adb33fa",
+  "time" : {
+    "start" : 1744807278968,
+    "stop" : 1744807363962,
+    "duration" : 84994
+  },
+  "description" : "Test de récupération de toutes les personnes",
+  "descriptionHtml" : "<p>Test de récupération de toutes les personnes</p>\n",
+  "status" : "failed",
+  "statusMessage" : "\r\nExpecting actual:\r\n  \"John\"\r\nto contain:\r\n  \"Mary\" ",
+  "statusTrace" : "java.lang.AssertionError: \r\nExpecting actual:\r\n  \"John\"\r\nto contain:\r\n  \"Mary\" \r\n\tat fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest.assertPersonsResult(PersonServiceMockAllureTest.java:109)\r\n\tat fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest.getPersonsTest(PersonServiceMockAllureTest.java:66)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1596)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest]/[method:getPersonsTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RVGOQTRQ"
+  }, {
+    "name" : "thread",
+    "value" : "9668@LAPTOP-RVGOQTRQ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getPersonsTest"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "db369727c747bb5a.json",
+  "parameterValues" : [ ]
+}

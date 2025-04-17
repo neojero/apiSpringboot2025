@@ -1,0 +1,127 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "fr.pompey.cda23016.apiprojet",
+    "children" : [ {
+      "name" : "PersonServiceMockAllureTest",
+      "children" : [ {
+        "name" : "getPersonsTest",
+        "uid" : "ad990a873948d804",
+        "parentUid" : "73158bdbde79be47d8b76f191832427f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744874517900,
+          "stop" : 1744874518832,
+          "duration" : 932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "GetPersonByIdTest",
+        "uid" : "84ce8f451306f4b3",
+        "parentUid" : "73158bdbde79be47d8b76f191832427f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744874518892,
+          "stop" : 1744874518903,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 6,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "73158bdbde79be47d8b76f191832427f"
+    }, {
+      "name" : "PersonControllerTest",
+      "children" : [ {
+        "name" : "getPersonsTest",
+        "uid" : "18b875ad66137770",
+        "parentUid" : "642dd6ee4594a1ac3a650514309e0841",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744874520538,
+          "stop" : 1744874520612,
+          "duration" : 74
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "642dd6ee4594a1ac3a650514309e0841"
+    }, {
+      "name" : "PersonServiceMockTest",
+      "children" : [ {
+        "name" : "getPersonsTest",
+        "uid" : "5a3cf7a5244ebb7c",
+        "parentUid" : "7c671245208a8d9b64d7412faf421dc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744874520621,
+          "stop" : 1744874520625,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "GetPersonByIdTest",
+        "uid" : "1688057218e75125",
+        "parentUid" : "7c671245208a8d9b64d7412faf421dc8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744874520627,
+          "stop" : 1744874520630,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7c671245208a8d9b64d7412faf421dc8"
+    }, {
+      "name" : "ApiprojetApplicationTests",
+      "children" : [ {
+        "name" : "contextLoads",
+        "uid" : "4de1f080b7db7c2",
+        "parentUid" : "f223e48bde7c9b0a3c5bb331eb405c0f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1744874522830,
+          "stop" : 1744874522836,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 5,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f223e48bde7c9b0a3c5bb331eb405c0f"
+    } ],
+    "uid" : "fr.pompey.cda23016.apiprojet"
+  } ]
+}

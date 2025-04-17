@@ -1,0 +1,48 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
+    "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
+    "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "fa44221ea0c39d10d7fb61a5de133d5f",
+    "name" : "fr.pompey.cda23016.apiprojet.PersonControllerTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "3d0be90bde92d0e1164800cd7dd2b366",
+    "name" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}
