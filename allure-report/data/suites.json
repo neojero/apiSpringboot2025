@@ -5,36 +5,36 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "de849c43d1dde02a",
+      "uid" : "d3d9c0281025b671",
       "parentUid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
       "status" : "passed",
       "time" : {
-        "start" : 1744893241320,
-        "stop" : 1744893242230,
-        "duration" : 910
+        "start" : 1744895800848,
+        "stop" : 1744895801773,
+        "duration" : 925
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 9,
+      "retriesCount" : 8,
       "retriesStatusChange" : true,
       "parameters" : [ ]
     }, {
       "name" : "GetPersonByIdTest()",
-      "uid" : "eec01476f1819f55",
+      "uid" : "45e6d264d3c72037",
       "parentUid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
       "status" : "passed",
       "time" : {
-        "start" : 1744893242291,
-        "stop" : 1744893242300,
+        "start" : 1744895801840,
+        "stop" : 1744895801849,
         "duration" : 9
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 9,
+      "retriesCount" : 8,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
@@ -43,19 +43,19 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonControllerTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "b803d6cf65dd1e9d",
+      "uid" : "a9cfbeb7ce2c0e6c",
       "parentUid" : "fa44221ea0c39d10d7fb61a5de133d5f",
       "status" : "passed",
       "time" : {
-        "start" : 1744893243966,
-        "stop" : 1744893244053,
-        "duration" : 87
+        "start" : 1744895803569,
+        "stop" : 1744895803658,
+        "duration" : 89
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 4,
+      "retriesCount" : 3,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
@@ -64,36 +64,36 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "716ff8b24ce07e2a",
+      "uid" : "2ab5fa53af76c6ed",
       "parentUid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
       "status" : "passed",
       "time" : {
-        "start" : 1744893244063,
-        "stop" : 1744893244071,
-        "duration" : 8
+        "start" : 1744895803666,
+        "stop" : 1744895803669,
+        "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 4,
+      "retriesCount" : 3,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     }, {
       "name" : "GetPersonByIdTest()",
-      "uid" : "23d23a70c618024a",
+      "uid" : "e2b369fc89960088",
       "parentUid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
       "status" : "passed",
       "time" : {
-        "start" : 1744893244076,
-        "stop" : 1744893244082,
-        "duration" : 6
+        "start" : 1744895803671,
+        "stop" : 1744895803674,
+        "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 4,
+      "retriesCount" : 3,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
@@ -102,19 +102,19 @@
     "name" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests",
     "children" : [ {
       "name" : "contextLoads()",
-      "uid" : "b05016fa1ac0a03f",
+      "uid" : "4f6247408f083b98",
       "parentUid" : "3d0be90bde92d0e1164800cd7dd2b366",
       "status" : "passed",
       "time" : {
-        "start" : 1744893246341,
-        "stop" : 1744893246346,
-        "duration" : 5
+        "start" : 1744895805957,
+        "stop" : 1744895805963,
+        "duration" : 6
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 5,
+      "retriesCount" : 4,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],

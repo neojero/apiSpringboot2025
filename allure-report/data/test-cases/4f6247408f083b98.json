@@ -1,0 +1,100 @@
+{
+  "uid" : "4f6247408f083b98",
+  "name" : "contextLoads()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests.contextLoads",
+  "historyId" : "a7d1654418576882a9686f6e7208dfb5",
+  "time" : {
+    "start" : 1744895805957,
+    "stop" : 1744895805963,
+    "duration" : 6
+  },
+  "description" : "Test de chargement du contexte Spring Boot",
+  "descriptionHtml" : "<p>Test de chargement du contexte Spring Boot</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests]/[method:contextLoads()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1391-115"
+  }, {
+    "name" : "thread",
+    "value" : "2062@fv-az1391-115.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "contextLoads"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "3bff336737dc79f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744812448070,
+        "stop" : 1744812448449,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "38fdd78240cfde31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744809603292,
+        "stop" : 1744809603737,
+        "duration" : 445
+      }
+    }, {
+      "uid" : "7198bec182bbcf7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807679365,
+        "stop" : 1744807679753,
+        "duration" : 388
+      }
+    }, {
+      "uid" : "1eb139e91d8aa95d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744805354293,
+        "stop" : 1744805354723,
+        "duration" : 430
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4f6247408f083b98.json",
+  "parameterValues" : [ ]
+}

@@ -9,19 +9,19 @@
         "name" : "Récupération de toutes les personnes",
         "children" : [ {
           "name" : "getPersonsTest()",
-          "uid" : "de849c43d1dde02a",
+          "uid" : "d3d9c0281025b671",
           "parentUid" : "00123049c2f5293a6afabfc2a2f38f38",
           "status" : "passed",
           "time" : {
-            "start" : 1744893241320,
-            "stop" : 1744893242230,
-            "duration" : 910
+            "start" : 1744895800848,
+            "stop" : 1744895801773,
+            "duration" : 925
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 9,
+          "retriesCount" : 8,
           "retriesStatusChange" : true,
           "parameters" : [ ]
         } ],
@@ -30,19 +30,19 @@
         "name" : "Récupération d'une personne par son ID",
         "children" : [ {
           "name" : "GetPersonByIdTest()",
-          "uid" : "eec01476f1819f55",
+          "uid" : "45e6d264d3c72037",
           "parentUid" : "b1592feaf88dcbf1a4e1e1078abcecd5",
           "status" : "passed",
           "time" : {
-            "start" : 1744893242291,
-            "stop" : 1744893242300,
+            "start" : 1744895801840,
+            "stop" : 1744895801849,
             "duration" : 9
           },
           "flaky" : false,
           "newFailed" : false,
           "newPassed" : false,
           "newBroken" : false,
-          "retriesCount" : 9,
+          "retriesCount" : 8,
           "retriesStatusChange" : false,
           "parameters" : [ ]
         } ],
@@ -53,46 +53,63 @@
     "uid" : "47f3764a6d17c4e4ebdf637c34223dec"
   }, {
     "name" : "getPersonsTest()",
-    "uid" : "b803d6cf65dd1e9d",
+    "uid" : "a9cfbeb7ce2c0e6c",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744893243966,
-      "stop" : 1744893244053,
-      "duration" : 87
+      "start" : 1744895803569,
+      "stop" : 1744895803658,
+      "duration" : 89
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 3,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "getPersonsTest()",
-    "uid" : "716ff8b24ce07e2a",
+    "uid" : "2ab5fa53af76c6ed",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744893244063,
-      "stop" : 1744893244071,
-      "duration" : 8
+      "start" : 1744895803666,
+      "stop" : 1744895803669,
+      "duration" : 3
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 3,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "GetPersonByIdTest()",
-    "uid" : "23d23a70c618024a",
+    "uid" : "e2b369fc89960088",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1744893244076,
-      "stop" : 1744893244082,
+      "start" : 1744895803671,
+      "stop" : 1744895803674,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "newPassed" : false,
+    "newBroken" : false,
+    "retriesCount" : 3,
+    "retriesStatusChange" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "contextLoads()",
+    "uid" : "4f6247408f083b98",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1744895805957,
+      "stop" : 1744895805963,
       "duration" : 6
     },
     "flaky" : false,
@@ -100,23 +117,6 @@
     "newPassed" : false,
     "newBroken" : false,
     "retriesCount" : 4,
-    "retriesStatusChange" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "contextLoads()",
-    "uid" : "b05016fa1ac0a03f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1744893246341,
-      "stop" : 1744893246346,
-      "duration" : 5
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 5,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ]

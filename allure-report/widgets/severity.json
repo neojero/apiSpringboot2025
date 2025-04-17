@@ -1,61 +1,61 @@
 [ {
-  "uid" : "b05016fa1ac0a03f",
+  "uid" : "2ab5fa53af76c6ed",
+  "name" : "getPersonsTest()",
+  "time" : {
+    "start" : 1744895803666,
+    "stop" : 1744895803669,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9cfbeb7ce2c0e6c",
+  "name" : "getPersonsTest()",
+  "time" : {
+    "start" : 1744895803569,
+    "stop" : 1744895803658,
+    "duration" : 89
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "e2b369fc89960088",
+  "name" : "GetPersonByIdTest()",
+  "time" : {
+    "start" : 1744895803671,
+    "stop" : 1744895803674,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f6247408f083b98",
   "name" : "contextLoads()",
   "time" : {
-    "start" : 1744893246341,
-    "stop" : 1744893246346,
-    "duration" : 5
+    "start" : 1744895805957,
+    "stop" : 1744895805963,
+    "duration" : 6
   },
   "status" : "passed",
   "severity" : "blocker"
 }, {
-  "uid" : "716ff8b24ce07e2a",
-  "name" : "getPersonsTest()",
-  "time" : {
-    "start" : 1744893244063,
-    "stop" : 1744893244071,
-    "duration" : 8
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "de849c43d1dde02a",
-  "name" : "getPersonsTest()",
-  "time" : {
-    "start" : 1744893241320,
-    "stop" : 1744893242230,
-    "duration" : 910
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b803d6cf65dd1e9d",
-  "name" : "getPersonsTest()",
-  "time" : {
-    "start" : 1744893243966,
-    "stop" : 1744893244053,
-    "duration" : 87
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "23d23a70c618024a",
+  "uid" : "45e6d264d3c72037",
   "name" : "GetPersonByIdTest()",
   "time" : {
-    "start" : 1744893244076,
-    "stop" : 1744893244082,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eec01476f1819f55",
-  "name" : "GetPersonByIdTest()",
-  "time" : {
-    "start" : 1744893242291,
-    "stop" : 1744893242300,
+    "start" : 1744895801840,
+    "stop" : 1744895801849,
     "duration" : 9
   },
   "status" : "passed",
   "severity" : "critical"
+}, {
+  "uid" : "d3d9c0281025b671",
+  "name" : "getPersonsTest()",
+  "time" : {
+    "start" : 1744895800848,
+    "stop" : 1744895801773,
+    "duration" : 925
+  },
+  "status" : "passed",
+  "severity" : "normal"
 } ]

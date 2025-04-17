@@ -7,36 +7,36 @@
       "name" : "PersonServiceMockAllureTest",
       "children" : [ {
         "name" : "getPersonsTest",
-        "uid" : "de849c43d1dde02a",
+        "uid" : "d3d9c0281025b671",
         "parentUid" : "73158bdbde79be47d8b76f191832427f",
         "status" : "passed",
         "time" : {
-          "start" : 1744893241320,
-          "stop" : 1744893242230,
-          "duration" : 910
+          "start" : 1744895800848,
+          "stop" : 1744895801773,
+          "duration" : 925
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 9,
+        "retriesCount" : 8,
         "retriesStatusChange" : true,
         "parameters" : [ ]
       }, {
         "name" : "GetPersonByIdTest",
-        "uid" : "eec01476f1819f55",
+        "uid" : "45e6d264d3c72037",
         "parentUid" : "73158bdbde79be47d8b76f191832427f",
         "status" : "passed",
         "time" : {
-          "start" : 1744893242291,
-          "stop" : 1744893242300,
+          "start" : 1744895801840,
+          "stop" : 1744895801849,
           "duration" : 9
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 9,
+        "retriesCount" : 8,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -45,19 +45,19 @@
       "name" : "PersonControllerTest",
       "children" : [ {
         "name" : "getPersonsTest",
-        "uid" : "b803d6cf65dd1e9d",
+        "uid" : "a9cfbeb7ce2c0e6c",
         "parentUid" : "642dd6ee4594a1ac3a650514309e0841",
         "status" : "passed",
         "time" : {
-          "start" : 1744893243966,
-          "stop" : 1744893244053,
-          "duration" : 87
+          "start" : 1744895803569,
+          "stop" : 1744895803658,
+          "duration" : 89
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 4,
+        "retriesCount" : 3,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -66,36 +66,36 @@
       "name" : "PersonServiceMockTest",
       "children" : [ {
         "name" : "getPersonsTest",
-        "uid" : "716ff8b24ce07e2a",
+        "uid" : "2ab5fa53af76c6ed",
         "parentUid" : "7c671245208a8d9b64d7412faf421dc8",
         "status" : "passed",
         "time" : {
-          "start" : 1744893244063,
-          "stop" : 1744893244071,
-          "duration" : 8
+          "start" : 1744895803666,
+          "stop" : 1744895803669,
+          "duration" : 3
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 4,
+        "retriesCount" : 3,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       }, {
         "name" : "GetPersonByIdTest",
-        "uid" : "23d23a70c618024a",
+        "uid" : "e2b369fc89960088",
         "parentUid" : "7c671245208a8d9b64d7412faf421dc8",
         "status" : "passed",
         "time" : {
-          "start" : 1744893244076,
-          "stop" : 1744893244082,
-          "duration" : 6
+          "start" : 1744895803671,
+          "stop" : 1744895803674,
+          "duration" : 3
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 4,
+        "retriesCount" : 3,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
@@ -104,19 +104,19 @@
       "name" : "ApiprojetApplicationTests",
       "children" : [ {
         "name" : "contextLoads",
-        "uid" : "b05016fa1ac0a03f",
+        "uid" : "4f6247408f083b98",
         "parentUid" : "f223e48bde7c9b0a3c5bb331eb405c0f",
         "status" : "passed",
         "time" : {
-          "start" : 1744893246341,
-          "stop" : 1744893246346,
-          "duration" : 5
+          "start" : 1744895805957,
+          "stop" : 1744895805963,
+          "duration" : 6
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 5,
+        "retriesCount" : 4,
         "retriesStatusChange" : false,
         "parameters" : [ ]
       } ],
