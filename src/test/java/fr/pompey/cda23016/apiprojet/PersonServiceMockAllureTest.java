@@ -3,10 +3,8 @@ package fr.pompey.cda23016.apiprojet;
 import fr.pompey.cda23016.apiprojet.model.Person;
 import fr.pompey.cda23016.apiprojet.repository.PersonRepository;
 import fr.pompey.cda23016.apiprojet.service.PersonService;
-import io.qameta.allure.Description;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
-import io.qameta.allure.Step;
+import io.qameta.allure.*;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -24,6 +22,8 @@ import static org.mockito.Mockito.*;
 import static org.mockito.Mockito.times;
 
 @ExtendWith(MockitoExtension.class)
+@Epic("Gestion des personnes")
+@Feature("Récupération des personnes")
 public class PersonServiceMockAllureTest {
 
     @Mock
@@ -35,6 +35,8 @@ public class PersonServiceMockAllureTest {
     @Test
     @Description("Test de récupération d'une personne par ID")
     @Severity(SeverityLevel.CRITICAL)
+    @Story("Récupération d'une personne par son ID")
+    @Tag("Mock")
     public void GetPersonByIdTest() {
         // Création d'une personne fictive pour le test
         Person person = createTestPerson(1, "John", "Doe");
@@ -53,6 +55,8 @@ public class PersonServiceMockAllureTest {
     @Test
     @Description("Test de récupération de toutes les personnes")
     @Severity(SeverityLevel.NORMAL)
+    @Story("Récupération de toutes les personnes")
+    @Tag("Mock")
     public void getPersonsTest() {
         // Création de personnes fictives pour le test
         Person person1 = createTestPerson(1, "John", "Doe");
