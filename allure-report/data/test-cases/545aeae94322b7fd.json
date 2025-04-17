@@ -1,0 +1,66 @@
+{
+  "uid" : "545aeae94322b7fd",
+  "name" : "getPersonsTest()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.PersonControllerTest.getPersonsTest",
+  "historyId" : "e7dac72546361714da8e171ee0f5efef",
+  "time" : {
+    "start" : 1744880707886,
+    "stop" : 1744880707972,
+    "duration" : 86
+  },
+  "description" : "Test de récupération de la liste des personnes",
+  "descriptionHtml" : "<p>Test de récupération de la liste des personnes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.PersonControllerTest]/[method:getPersonsTest()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1675-695"
+  }, {
+    "name" : "thread",
+    "value" : "2063@fv-az1675-695.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getPersonsTest"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonControllerTest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "545aeae94322b7fd.json",
+  "parameterValues" : [ ]
+}

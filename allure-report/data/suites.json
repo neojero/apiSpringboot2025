@@ -5,36 +5,36 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "ad990a873948d804",
+      "uid" : "190d701bb1e8264c",
       "parentUid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
       "status" : "passed",
       "time" : {
-        "start" : 1744874517900,
-        "stop" : 1744874518832,
-        "duration" : 932
+        "start" : 1744880750413,
+        "stop" : 1744880751378,
+        "duration" : 965
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 6,
+      "retriesCount" : 9,
       "retriesStatusChange" : true,
       "parameters" : [ ]
     }, {
       "name" : "GetPersonByIdTest()",
-      "uid" : "84ce8f451306f4b3",
+      "uid" : "86d717f6815c5058",
       "parentUid" : "bea30c0b492cb8fd17b2f1fe976d81cf",
       "status" : "passed",
       "time" : {
-        "start" : 1744874518892,
-        "stop" : 1744874518903,
-        "duration" : 11
+        "start" : 1744880751441,
+        "stop" : 1744880751451,
+        "duration" : 10
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 6,
+      "retriesCount" : 9,
       "retriesStatusChange" : false,
       "parameters" : [ ]
     } ],
@@ -43,13 +43,13 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonControllerTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "18b875ad66137770",
+      "uid" : "314a088f900290f5",
       "parentUid" : "fa44221ea0c39d10d7fb61a5de133d5f",
       "status" : "passed",
       "time" : {
-        "start" : 1744874520538,
-        "stop" : 1744874520612,
-        "duration" : 74
+        "start" : 1744880753178,
+        "stop" : 1744880753270,
+        "duration" : 92
       },
       "flaky" : false,
       "newFailed" : false,
@@ -64,13 +64,13 @@
     "name" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest",
     "children" : [ {
       "name" : "getPersonsTest()",
-      "uid" : "5a3cf7a5244ebb7c",
+      "uid" : "fefe6b0f9b4a9c37",
       "parentUid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
       "status" : "passed",
       "time" : {
-        "start" : 1744874520621,
-        "stop" : 1744874520625,
-        "duration" : 4
+        "start" : 1744880753278,
+        "stop" : 1744880753281,
+        "duration" : 3
       },
       "flaky" : false,
       "newFailed" : false,
@@ -81,12 +81,12 @@
       "parameters" : [ ]
     }, {
       "name" : "GetPersonByIdTest()",
-      "uid" : "1688057218e75125",
+      "uid" : "bdf364ce2fdd51e5",
       "parentUid" : "9b4eeb97faca4a9fca2afa6f50bcd8f2",
       "status" : "passed",
       "time" : {
-        "start" : 1744874520627,
-        "stop" : 1744874520630,
+        "start" : 1744880753283,
+        "stop" : 1744880753286,
         "duration" : 3
       },
       "flaky" : false,
@@ -102,12 +102,12 @@
     "name" : "fr.pompey.cda23016.apiprojet.ApiprojetApplicationTests",
     "children" : [ {
       "name" : "contextLoads()",
-      "uid" : "4de1f080b7db7c2",
+      "uid" : "cec86679337d6b89",
       "parentUid" : "3d0be90bde92d0e1164800cd7dd2b366",
       "status" : "passed",
       "time" : {
-        "start" : 1744874522830,
-        "stop" : 1744874522836,
+        "start" : 1744880755542,
+        "stop" : 1744880755548,
         "duration" : 6
       },
       "flaky" : false,

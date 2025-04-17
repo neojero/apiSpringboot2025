@@ -1,61 +1,61 @@
 [ {
-  "uid" : "4de1f080b7db7c2",
-  "name" : "contextLoads()",
-  "time" : {
-    "start" : 1744874522830,
-    "stop" : 1744874522836,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad990a873948d804",
+  "uid" : "190d701bb1e8264c",
   "name" : "getPersonsTest()",
   "time" : {
-    "start" : 1744874517900,
-    "stop" : 1744874518832,
-    "duration" : 932
+    "start" : 1744880750413,
+    "stop" : 1744880751378,
+    "duration" : 965
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "18b875ad66137770",
+  "uid" : "fefe6b0f9b4a9c37",
   "name" : "getPersonsTest()",
   "time" : {
-    "start" : 1744874520538,
-    "stop" : 1744874520612,
-    "duration" : 74
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1688057218e75125",
-  "name" : "GetPersonByIdTest()",
-  "time" : {
-    "start" : 1744874520627,
-    "stop" : 1744874520630,
+    "start" : 1744880753278,
+    "stop" : 1744880753281,
     "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "84ce8f451306f4b3",
+  "uid" : "bdf364ce2fdd51e5",
   "name" : "GetPersonByIdTest()",
   "time" : {
-    "start" : 1744874518892,
-    "stop" : 1744874518903,
-    "duration" : 11
+    "start" : 1744880753283,
+    "stop" : 1744880753286,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86d717f6815c5058",
+  "name" : "GetPersonByIdTest()",
+  "time" : {
+    "start" : 1744880751441,
+    "stop" : 1744880751451,
+    "duration" : 10
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "5a3cf7a5244ebb7c",
+  "uid" : "314a088f900290f5",
   "name" : "getPersonsTest()",
   "time" : {
-    "start" : 1744874520621,
-    "stop" : 1744874520625,
-    "duration" : 4
+    "start" : 1744880753178,
+    "stop" : 1744880753270,
+    "duration" : 92
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "critical"
+}, {
+  "uid" : "cec86679337d6b89",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1744880755542,
+    "stop" : 1744880755548,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
 } ]

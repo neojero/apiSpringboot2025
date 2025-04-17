@@ -1,0 +1,140 @@
+{
+  "uid" : "86d717f6815c5058",
+  "name" : "GetPersonByIdTest()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest.GetPersonByIdTest",
+  "historyId" : "40828fe00795ccd816a28acbe62d9250",
+  "time" : {
+    "start" : 1744880751441,
+    "stop" : 1744880751451,
+    "duration" : 10
+  },
+  "description" : "Test de récupération d'une personne par ID",
+  "descriptionHtml" : "<p>Test de récupération d'une personne par ID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest]/[method:GetPersonByIdTest()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1675-695"
+  }, {
+    "name" : "thread",
+    "value" : "2372@fv-az1675-695.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "GetPersonByIdTest"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockAllureTest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "4c17df967744ab3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880706203,
+        "stop" : 1744880706213,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "cf7390fe99ba7204",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880605109,
+        "stop" : 1744880605117,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "db11217e6f0cb08e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880556844,
+        "stop" : 1744880556854,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "7192acf7fcc55b6e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744880210091,
+        "stop" : 1744880210103,
+        "duration" : 12
+      }
+    }, {
+      "uid" : "1250ec4a8d83d9c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744809604720,
+        "stop" : 1744809604731,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "d9ca75b9af02c909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807680690,
+        "stop" : 1744807680701,
+        "duration" : 11
+      }
+    }, {
+      "uid" : "94fa5d82a48165bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807653367,
+        "stop" : 1744807653377,
+        "duration" : 10
+      }
+    }, {
+      "uid" : "a03d9f69d0e724f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807364198,
+        "stop" : 1744807364231,
+        "duration" : 33
+      }
+    }, {
+      "uid" : "a040422bdea0d7d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744805355661,
+        "stop" : 1744805355676,
+        "duration" : 15
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "86d717f6815c5058.json",
+  "parameterValues" : [ ]
+}
