@@ -167,3 +167,15 @@ jobs:
           if: always()
           with:
             description: 'The project SpringBoot API 2025 has been deployed in Docker Hub.'
+
+    Team_Notification:
+      name: MS Teams Deploy Card
+      runs-on: ubuntu-latest
+      needs: docker-build-image-api
+      steps:
+          # this is the new step
+          - uses: dchourasia/ms-teams-notification@1.0 #  or "./" if in a local set-up
+            if: always()
+            with:
+              github-token: ${{ github.token }}
+              webhook-uri: ${{ secrets.MS_TEAMS_WEBHOOK_URI }}
