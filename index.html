@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Projet</title>
+</head>
+<body>
+
+<section>
+    <h1>Welcome</h1>
+</section>
+
+<section>
+    <pre class="mermaid">
+        ---
+        title : CI/CD GITHUB Actions
+        ---
+        graph TD
+        A[Push Code to GitHub] --> B[Trigger Github Actions Workflow]
+        B --> C[Checkout Code]
+        C --> D[Install BDD for Tests integration]
+        D --> E[Execute Scripts for BDD]
+        E --> F[Set Up Java]
+        F --> G[Set Up SonarCLoud Package]
+        G --> H[Set Up Maven Package]
+        H --> I[Build and Analyse SonarCloud with Maven]
+        I --> J[Run Unit Tests]
+        J --> K[Run Integration Tests]
+        K --> L[Upload Artefact]
+        L --> M[Notify Team]
+        M --> N[Download Artefact]
+        N --> O[Build Docker Image for API Application]
+        O --> P[Push Docker Image to Registry]
+        P --> Q[Notify Team]
+    </pre>
+
+</section>
+
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+</script>
+</body>
+</html>
