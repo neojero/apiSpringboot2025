@@ -7,13 +7,13 @@
       "name" : "PersonServiceMockAllureTest",
       "children" : [ {
         "name" : "getPersonsTest",
-        "uid" : "d3d9c0281025b671",
+        "uid" : "35be57a6f51d560f",
         "parentUid" : "73158bdbde79be47d8b76f191832427f",
         "status" : "passed",
         "time" : {
-          "start" : 1744895800848,
-          "stop" : 1744895801773,
-          "duration" : 925
+          "start" : 1744955864464,
+          "stop" : 1744955865407,
+          "duration" : 943
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,12 +24,12 @@
         "parameters" : [ ]
       }, {
         "name" : "GetPersonByIdTest",
-        "uid" : "45e6d264d3c72037",
+        "uid" : "72e4bac713b3967e",
         "parentUid" : "73158bdbde79be47d8b76f191832427f",
         "status" : "passed",
         "time" : {
-          "start" : 1744895801840,
-          "stop" : 1744895801849,
+          "start" : 1744955865466,
+          "stop" : 1744955865475,
           "duration" : 9
         },
         "flaky" : false,
@@ -45,13 +45,13 @@
       "name" : "PersonControllerTest",
       "children" : [ {
         "name" : "getPersonsTest",
-        "uid" : "a9cfbeb7ce2c0e6c",
+        "uid" : "a986c45aed42fc8",
         "parentUid" : "642dd6ee4594a1ac3a650514309e0841",
         "status" : "passed",
         "time" : {
-          "start" : 1744895803569,
-          "stop" : 1744895803658,
-          "duration" : 89
+          "start" : 1744955867119,
+          "stop" : 1744955867204,
+          "duration" : 85
         },
         "flaky" : false,
         "newFailed" : false,
@@ -66,12 +66,12 @@
       "name" : "PersonServiceMockTest",
       "children" : [ {
         "name" : "getPersonsTest",
-        "uid" : "2ab5fa53af76c6ed",
+        "uid" : "c611710722fac3cf",
         "parentUid" : "7c671245208a8d9b64d7412faf421dc8",
         "status" : "passed",
         "time" : {
-          "start" : 1744895803666,
-          "stop" : 1744895803669,
+          "start" : 1744955867213,
+          "stop" : 1744955867216,
           "duration" : 3
         },
         "flaky" : false,
@@ -83,12 +83,12 @@
         "parameters" : [ ]
       }, {
         "name" : "GetPersonByIdTest",
-        "uid" : "e2b369fc89960088",
+        "uid" : "b563d6ebcc51ec53",
         "parentUid" : "7c671245208a8d9b64d7412faf421dc8",
         "status" : "passed",
         "time" : {
-          "start" : 1744895803671,
-          "stop" : 1744895803674,
+          "start" : 1744955867218,
+          "stop" : 1744955867221,
           "duration" : 3
         },
         "flaky" : false,
@@ -104,12 +104,12 @@
       "name" : "ApiprojetApplicationTests",
       "children" : [ {
         "name" : "contextLoads",
-        "uid" : "4f6247408f083b98",
+        "uid" : "5bf528d6fd1d76dd",
         "parentUid" : "f223e48bde7c9b0a3c5bb331eb405c0f",
         "status" : "passed",
         "time" : {
-          "start" : 1744895805957,
-          "stop" : 1744895805963,
+          "start" : 1744955869412,
+          "stop" : 1744955869418,
           "duration" : 6
         },
         "flaky" : false,

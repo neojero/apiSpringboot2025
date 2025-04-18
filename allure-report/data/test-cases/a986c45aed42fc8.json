@@ -1,0 +1,92 @@
+{
+  "uid" : "a986c45aed42fc8",
+  "name" : "getPersonsTest()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.PersonControllerTest.getPersonsTest",
+  "historyId" : "e7dac72546361714da8e171ee0f5efef",
+  "time" : {
+    "start" : 1744955867119,
+    "stop" : 1744955867204,
+    "duration" : 85
+  },
+  "description" : "Test de récupération de la liste des personnes",
+  "descriptionHtml" : "<p>Test de récupération de la liste des personnes</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 3,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.PersonControllerTest]/[method:getPersonsTest()]"
+  }, {
+    "name" : "host",
+    "value" : "fv-az1048-126"
+  }, {
+    "name" : "thread",
+    "value" : "2040@fv-az1048-126.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonControllerTest"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonControllerTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getPersonsTest"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonControllerTest"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "a7bf8fb22e04b172",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744809604319,
+        "stop" : 1744809604508,
+        "duration" : 189
+      }
+    }, {
+      "uid" : "d7ed3bf48add9024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744807680310,
+        "stop" : 1744807680466,
+        "duration" : 156
+      }
+    }, {
+      "uid" : "964f028c510ed678",
+      "status" : "passed",
+      "time" : {
+        "start" : 1744805355276,
+        "stop" : 1744805355414,
+        "duration" : 138
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a986c45aed42fc8.json",
+  "parameterValues" : [ ]
+}

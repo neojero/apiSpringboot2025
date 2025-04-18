@@ -1,0 +1,62 @@
+{
+  "uid" : "4e2c955f35d7663f",
+  "name" : "getPersonsTest()",
+  "fullName" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest.getPersonsTest",
+  "historyId" : "68d432f1950d7b4ec59ccd8c698345df",
+  "time" : {
+    "start" : 1744805355684,
+    "stop" : 1744805355687,
+    "duration" : 3
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:fr.pompey.cda23016.apiprojet.PersonServiceMockTest]/[method:getPersonsTest()]"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-RVGOQTRQ"
+  }, {
+    "name" : "thread",
+    "value" : "4604@LAPTOP-RVGOQTRQ.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest"
+  }, {
+    "name" : "testClass",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "getPersonsTest"
+  }, {
+    "name" : "suite",
+    "value" : "fr.pompey.cda23016.apiprojet.PersonServiceMockTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4e2c955f35d7663f.json",
+  "parameterValues" : [ ]
+}

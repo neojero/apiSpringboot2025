@@ -1,60 +1,60 @@
 [ {
-  "uid" : "2ab5fa53af76c6ed",
+  "uid" : "a986c45aed42fc8",
   "name" : "getPersonsTest()",
   "time" : {
-    "start" : 1744895803666,
-    "stop" : 1744895803669,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a9cfbeb7ce2c0e6c",
-  "name" : "getPersonsTest()",
-  "time" : {
-    "start" : 1744895803569,
-    "stop" : 1744895803658,
-    "duration" : 89
+    "start" : 1744955867119,
+    "stop" : 1744955867204,
+    "duration" : 85
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "e2b369fc89960088",
+  "uid" : "72e4bac713b3967e",
   "name" : "GetPersonByIdTest()",
   "time" : {
-    "start" : 1744895803671,
-    "stop" : 1744895803674,
-    "duration" : 3
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4f6247408f083b98",
-  "name" : "contextLoads()",
-  "time" : {
-    "start" : 1744895805957,
-    "stop" : 1744895805963,
-    "duration" : 6
-  },
-  "status" : "passed",
-  "severity" : "blocker"
-}, {
-  "uid" : "45e6d264d3c72037",
-  "name" : "GetPersonByIdTest()",
-  "time" : {
-    "start" : 1744895801840,
-    "stop" : 1744895801849,
+    "start" : 1744955865466,
+    "stop" : 1744955865475,
     "duration" : 9
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "d3d9c0281025b671",
+  "uid" : "5bf528d6fd1d76dd",
+  "name" : "contextLoads()",
+  "time" : {
+    "start" : 1744955869412,
+    "stop" : 1744955869418,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+}, {
+  "uid" : "b563d6ebcc51ec53",
+  "name" : "GetPersonByIdTest()",
+  "time" : {
+    "start" : 1744955867218,
+    "stop" : 1744955867221,
+    "duration" : 3
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35be57a6f51d560f",
   "name" : "getPersonsTest()",
   "time" : {
-    "start" : 1744895800848,
-    "stop" : 1744895801773,
-    "duration" : 925
+    "start" : 1744955864464,
+    "stop" : 1744955865407,
+    "duration" : 943
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c611710722fac3cf",
+  "name" : "getPersonsTest()",
+  "time" : {
+    "start" : 1744955867213,
+    "stop" : 1744955867216,
+    "duration" : 3
   },
   "status" : "passed",
   "severity" : "normal"
